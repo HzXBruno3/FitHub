@@ -1,0 +1,33 @@
+{
+  "name": "stadium",
+  "version": "1.0.0",
+  "description": "Stadium Personal Trainer Platform - Backend API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "start": "nodemon index.js",
+    "start:prod": "node index.js"
+  },
+  "keywords": ["fitness", "personal trainer", "api", "nodejs"],
+  "author": "Stadium Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.13.8",
+    "multer": "^2.0.2",
+    "nodemon": "^2.0.22",
+    "react-qr-code": "^2.0.18",
+    "socket.io": "^4.8.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
